@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lab Activity 5 by Sebastian Martinez</string>
+    <string name="user_s_image">User\'s Image</string>
+    <string name="student_name_hint">Student Name</string>
+    <string name="id_number_hint">ID Number</string>
+    <string name="course">Course:</string>
+    <string name="course_cs">BSCS</string>
+    <string name="course_it">BSIT</string>
+    <string name="gender">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="year_level">Year Level</string>
+    <string name="choose_your_subjects">Choose your subjects:</string>
+    <string name="subject_1">Web Development</string>
+    <string name="subject_2">Computer Organization</string>
+    <string name="subject_3">Programming 1</string>
+    <string name="subject_4">Data Structure</string>
+    <string name="submit_button">View Information</string>
+
+    <string-array name="year_level_val">
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+    </string-array>
+
+</resources>
