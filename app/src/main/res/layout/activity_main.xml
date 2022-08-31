@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/portrait_2x2"
+        app:srcCompat="@drawable/placeholder_2x2"
         tools:ignore="ImageContrastCheck" />
 
     <EditText

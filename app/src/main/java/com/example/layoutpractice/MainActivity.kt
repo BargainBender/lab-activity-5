@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.rbtn_bsit -> course = "BCIT"
             }
         }}
-
     }
 
     private fun showInformation() {
@@ -74,35 +73,19 @@ class MainActivity : AppCompatActivity() {
             val checked: Boolean = view.isChecked
 
             when (view.id) {
-                R.id.cb_subject_1 -> {
-                    if (checked) {
-                        subjects.add(" - Web Development")
-                    } else {
-                        subjects.remove(" - Web Development")
-                    }
-                }
-                R.id.cb_subject_2 -> {
-                    if (checked) {
-                        subjects.add(" - Computer Organization")
-                    } else {
-                        subjects.remove(" - Computer Organization")
-                    }
-                }
-                R.id.cb_subject_3 -> {
-                    if (checked) {
-                        subjects.add(" - Programming 1")
-                    } else {
-                        subjects.remove(" - Programming 1")
-                    }
-                }
-                R.id.cb_subject_4 -> {
-                    if (checked) {
-                        subjects.add(" - Data Structure")
-                    } else {
-                        subjects.remove(" - Data Structure")
-                    }
-                }
+                R.id.cb_subject_1 -> addOrRemoveFromSubjects(" - Web Development", checked)
+                R.id.cb_subject_2 -> addOrRemoveFromSubjects(" - Computer Organization", checked)
+                R.id.cb_subject_3 -> addOrRemoveFromSubjects(" - Programming 1", checked)
+                R.id.cb_subject_4 -> addOrRemoveFromSubjects(" - Data Structure", checked)
             }
+        }
+    }
+
+    private fun addOrRemoveFromSubjects(value: String, checked: Boolean) {
+        if (checked) {
+            subjects.add(value)
+        } else {
+            subjects.remove(value)
         }
     }
 
