@@ -7,7 +7,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="150dp"
@@ -17,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/btn_star_big_on"
+        app:srcCompat="@drawable/portrait_2x2"
         tools:ignore="ImageContrastCheck" />
 
     <EditText
